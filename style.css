@@ -244,6 +244,12 @@
 #custom-update:hover {
   text-shadow: 0 0 6px rgba(253,230,138,0.8);
 }
+window.nowplaying-art {
+  background-color: #0f141b;
+  border-radius: 10px;
+  padding: 6px;
+}
+
 
 /* =====================================================
    CLOCK (UNDERLINE STYLE)

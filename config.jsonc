@@ -164,7 +164,8 @@
   "max-length": 40,
   "escape": true,
   "tooltip": true,
-  "on-click": "playerctl play-pause",
+
+  "on-click": "~/.config/waybar/scripts/nowplaying-art.sh",
   "on-click-right": "playerctl next",
   "on-scroll-up": "playerctl volume 0.05+",
   "on-scroll-down": "playerctl volume 0.05-"

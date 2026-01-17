@@ -285,6 +285,28 @@
 }
 
 /* =====================================================
+   NOW PLAYING (CLASSIC STATUS STYLE)
+===================================================== */
+#custom-nowplaying {
+  color: #c9d1d9;
+  padding: 0 10px;
+  margin-right: 6px;
+
+  font-style: italic;
+  letter-spacing: 0.3px;
+
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+#custom-nowplaying:hover {
+  color: #38bdf8;
+  border-bottom-color: #38bdf8;
+  text-shadow: 0 0 6px rgba(56,189,248,0.6);
+}
+
+
+/* =====================================================
    TOOLTIP STYLING (GTK SAFE)
 ===================================================== */
 tooltip {
